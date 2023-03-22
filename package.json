@@ -1,7 +1,7 @@
 {
 	"name": "rasin-react",
 	"version": "0.1.0",
-	"homepage": "https://charlesmack34.github.io/metro-realty",
+	"homepage": "https://charlesmack34.github.io",
 	"private": true,
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.11.4",
