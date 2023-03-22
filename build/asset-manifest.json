@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/metro-realty/static/css/main.1d990576.chunk.css",
-    "main.js": "/metro-realty/static/js/main.a759af05.chunk.js",
-    "main.js.map": "/metro-realty/static/js/main.a759af05.chunk.js.map",
+    "main.js": "/metro-realty/static/js/main.a03f23a3.chunk.js",
+    "main.js.map": "/metro-realty/static/js/main.a03f23a3.chunk.js.map",
     "runtime-main.js": "/metro-realty/static/js/runtime-main.9e5e99d1.js",
     "runtime-main.js.map": "/metro-realty/static/js/runtime-main.9e5e99d1.js.map",
     "static/css/2.cbedb215.chunk.css": "/metro-realty/static/css/2.cbedb215.chunk.css",
@@ -68,6 +68,6 @@
     "static/css/2.cbedb215.chunk.css",
     "static/js/2.2315b2b3.chunk.js",
     "static/css/main.1d990576.chunk.css",
-    "static/js/main.a759af05.chunk.js"
+    "static/js/main.a03f23a3.chunk.js"
   ]
 }
