@@ -23,21 +23,21 @@ import LoadTop from '../components/ScrollTop/LoadTop'
 const App = () => {
     return (
         <div className='App'>
-            <Router>  
+            <Router basename="/metro-realty">
                 <LoadTop />          
                 <Switch>
-                    <Route path="metro-realty/" exact component={Home} />
-                    <Route path="metro-realty/home" component={Home} />
-                    <Route path="metro-realty/home-2" component={HomeTwo} />
-                    <Route path="metro-realty/home-3" component={HomeThree} />
-                    <Route path="metro-realty/about" component={About} />
-                    <Route path="metro-realty/blog" exact component={Blog} />
-                    <Route path="metro-realty/blog/blog-details" component={BlogDetails} />
-                    <Route path="metro-realty/service" exact component={Service} />
-                    <Route path="metro-realty/service/service-details" component={ServiceDetails} />
-                    <Route path="metro-realty/case-study" exact component={CaseStudy} />
-                    <Route path="metro-realty/case-study/case-study-details" component={CaseStudyDetails} />
-                    <Route path="metro-realty/contact" component={Contact} />
+                    <Route path="/" exact component={Home} />
+                    <Route path="/home" component={Home} />
+                    <Route path="/home-2" component={HomeTwo} />
+                    <Route path="/home-3" component={HomeThree} />
+                    <Route path="/about" component={About} />
+                    <Route path="/blog" exact component={Blog} />
+                    <Route path="/blog/blog-details" component={BlogDetails} />
+                    <Route path="/service" exact component={Service} />
+                    <Route path="/service/service-details" component={ServiceDetails} />
+                    <Route path="/case-study" exact component={CaseStudy} />
+                    <Route path="/case-study/case-study-details" component={CaseStudyDetails} />
+                    <Route path="/contact" component={Contact} />
                     <Route component={Error} />
                 </Switch>
             </Router>

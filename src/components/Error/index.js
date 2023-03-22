@@ -11,7 +11,7 @@ const ErrorContent = () => {
                             oops! page not found 
                         </h2>
                         <div className="btn-part">
-                            <Link to="metro-realty/">
+                            <Link to="/">
                                 <a className="readon learn-more">Back To Homepage</a>
                             </Link>
                         </div>
