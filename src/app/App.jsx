@@ -16,7 +16,7 @@ import ServiceDetails from '../pages/service/service-details';
 import CaseStudy from '../pages/case-study';
 import CaseStudyDetails from '../pages/case-study/case-study-details';
 import Contact from '../pages/contact';
-import Error from '../pages/404';
+import Error from '../pages/404_old';
 import LoadTop from '../components/ScrollTop/LoadTop'
 
 

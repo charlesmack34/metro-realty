@@ -9,7 +9,7 @@ import './assets/scss/main.scss';
 
 ReactDOM.render(
 	<React.StrictMode>
-		<BrowserRouter>
+		<BrowserRouter basename="/metro-realty">
 			<App />
 		</BrowserRouter>
 	</React.StrictMode>,
