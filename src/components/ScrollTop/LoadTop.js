@@ -1,5 +1,11 @@
 import React, { Component } from "react";
-import { withRouter } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+
+const withLocation = Component => props => {
+    const location = useLocation();
+
+    return <Component {...props} location={location} />;
+};
 
 class LoadTop extends Component {
     componentDidUpdate(prevProps) {
@@ -12,4 +18,4 @@ class LoadTop extends Component {
     }
 }
 
-export default withRouter(LoadTop); 
+export default withLocation(LoadTop);

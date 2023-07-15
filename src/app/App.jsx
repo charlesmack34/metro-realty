@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, BrowserRouter as Router, Switch, withRouter } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 
 
@@ -23,25 +23,22 @@ import LoadTop from '../components/ScrollTop/LoadTop'
 const App = () => {
     return (
         <div className='App'>
-            <Router basename="/metro-realty">
-                <LoadTop />          
-                <Switch>
-                    <Route path="/" exact component={Home} />
-                    <Route path="/home" component={Home} />
-                    <Route path="/home-2" component={HomeTwo} />
-                    <Route path="/home-3" component={HomeThree} />
-                    <Route path="/about" component={About} />
-                    <Route path="/blog" exact component={Blog} />
-                    <Route path="/blog/blog-details" component={BlogDetails} />
-                    <Route path="/service" exact component={Service} />
-                    <Route path="/service/service-details" component={ServiceDetails} />
-                    <Route path="/case-study" exact component={CaseStudy} />
-                    <Route path="/case-study/case-study-details" component={CaseStudyDetails} />
-                    <Route path="/contact" component={Contact} />
-                    <Route component={Error} />
-                </Switch>
-            </Router>
-            
+            <LoadTop />
+            <Routes>
+                <Route path="/" exact element={<Home />} />
+                <Route path="/home" element={<Home />} />
+                <Route path="/home-2" element={<HomeTwo />} />
+                <Route path="/home-3" element={<HomeThree />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/blog" exact element={<Blog />} />
+                <Route path="/blog/blog-details" element={<BlogDetails />} />
+                <Route path="/service" exact element={<Service />} />
+                <Route path="/service/service-details" element={<ServiceDetails />} />
+                <Route path="/case-study" exact element={<CaseStudy />} />
+                <Route path="/case-study/case-study-details" element={<CaseStudyDetails />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route element={<Error />} />
+            </Routes>
         </div>
     );
 }
