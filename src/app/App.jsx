@@ -25,7 +25,7 @@ const App = () => {
         <div className='App'>
             <LoadTop />
             <Routes>
-                <Route path="/" exact element={<Home />} />
+                <Route path="*" exact element={<Home />} />
                 <Route path="/home" element={<Home />} />
                 <Route path="/home-2" element={<HomeTwo />} />
                 <Route path="/home-3" element={<HomeThree />} />
