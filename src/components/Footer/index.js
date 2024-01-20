@@ -59,7 +59,7 @@ const Footer = (props) => {
                             <p>This is Photoshop's version of LoreiIpsum. Proin gravida nibh vel velit auctor aliquet. Aenean
                                 sollicitudin, </p>
                             <form className="ras-footer-subscribe">
-                                <label for="footer-subscribe" className="sr-only">Subscribe</label>
+                                <label htmlFor="footer-subscribe" className="sr-only">Subscribe</label>
                                 <input type="email" placeholder="Enter your email" id="footer-subscribe" />
                                 <button type="submit">Subscribe</button>
                             </form>

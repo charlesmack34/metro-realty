@@ -12,7 +12,7 @@ const Service = () => {
             <img src={serviceShape} alt="service1-bg" className="ras-services-1-bg" />
             <div className="container">
                 <Fade bottom>
-                    <h2 className="mb-50 text-center">We’ve helped hundreds <br />of clients to reach internet & grow<br /> <span class="color-title">their Business</span></h2>
+                    <h2 className="mb-50 text-center">We’ve helped hundreds <br />of clients to reach internet & grow<br /> <span className="color-title">their Business</span></h2>
                 </Fade>
                 <Fade left cascade>
                     <div className="row">

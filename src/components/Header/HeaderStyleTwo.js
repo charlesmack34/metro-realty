@@ -5,7 +5,7 @@ import normalLogo from '../../assets/images/logos/logo.svg';
 import stickyLogo from '../../assets/images/logos/logo-colored.svg';
 
 const HeaderStyleTwo = (props) => {
-	const { headerClass, parentMenu, headerNormalLogo, headerStickyLogo, mobileNormalLogo } = props;
+	const { headerClass, parentMenu, headerNormalLogo, headerStickyLogo } = props;
 
 	const [menuOpen, setMenuOpen] = useState(false)
 	const [isVisible, setIsVisible] = useState(false);	
@@ -109,10 +109,10 @@ const HeaderStyleTwo = (props) => {
 										<li className={location.pathname === '/contact' ? 'active' : ''}>
 											<Link to="/contact">Contact</Link>
 										</li>
-										<li><a href="tel:+1 998 150 3022"><i class="icofont-iphone"></i> +00 123 6789</a></li>
+										<li><a href="tel:+1 998 150 3022"><i className="icofont-iphone"></i> +00 123 6789</a></li>
 										<li><Link to="/contact">Get Started</Link></li>
 									</ul>
-									<button class={menuOpen ? "mobile-menu-icon open" : "mobile-menu-icon"} aria-label="Main Menu Icon" onClick={() => {setMenuOpen(!menuOpen)}}>
+									<button className={menuOpen ? "mobile-menu-icon open" : "mobile-menu-icon"} aria-label="Main Menu Icon" onClick={() => {setMenuOpen(!menuOpen)}}>
 										<span></span>
 										<span></span>
 										<span></span>

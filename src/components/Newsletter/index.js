@@ -13,11 +13,11 @@ const Newsletter = (props) => {
                     </Fade>
                     <div className="input-part">
                     <Fade bottom>
-                        <label for="subscribe" className="sr-only">Subscribe</label>
+                        <label htmlFor="subscribe" className="sr-only">Subscribe</label>
                         <input type="email" placeholder="Enter your email" id="subscribe" />
                     </Fade>
                     <Fade bottom>
-                        <a href="#" className="btn btn-primary btn-large fadeInUp">{btn ? btn : 'Subscribe'}</a>
+                        <a href="#subscribe" className="btn btn-primary btn-large fadeInUp">{btn ? btn : 'Subscribe'}</a>
                     </Fade>
                     </div>
                 </div>
